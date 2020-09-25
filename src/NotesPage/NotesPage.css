@@ -1,0 +1,9 @@
+.filestructure {
+	position: absolute;
+	left: 0;
+}
+
+.canvas {
+	position: absolute;
+	right: 0;
+}
