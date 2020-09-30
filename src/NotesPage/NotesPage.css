@@ -1,9 +1,21 @@
-.filestructure {
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: white;
+}
+
+.search-bar {
+	width: 50vw;
+}
+
+.fileStructure {
 	position: absolute;
 	left: 0;
+	background-color: coral;
 }
 
 .canvas {
+	background-color: darkgoldenrod;
 	position: absolute;
 	right: 0;
 }

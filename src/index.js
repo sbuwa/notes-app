@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<LoginPage />
+		<NotesPage />
 	</React.StrictMode>,
 	document.getElementById('root')
 );

@@ -4,11 +4,12 @@ class NotesPage extends Component {
 	render() {
 		return (
 			<div>
-				<div className='filestructure'>
+				<div className='search-bar'>
 					<input type='text'></input>
 				</div>
-				<div className='canvas'>
-					<input type='text'></input>
+				<div className='grid-container'>
+					<div className='file-structure'>1</div>
+					<div className='canvas'>2</div>
 				</div>
 			</div>
 		);

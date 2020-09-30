@@ -11,11 +11,13 @@ class LoginPage extends Component {
 		};
 	}
 
-	onSubmitPress = () => {};
+	onSubmitPress = (e) => {
+		e.preventDefault();
+	};
 
 	render() {
 		return (
-			<div>
+			<div className='login-page'>
 				<form className='login-form'>
 					<img className='img-logo' src={logo} alt='logo'></img>
 					<br></br>
